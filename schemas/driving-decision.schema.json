@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Autonomous Consciousness Driving Decision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "timestamp",
+    "scenario",
+    "consciousness_state",
+    "chosen_action",
+    "proof_hash"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "pattern": "^acd-"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "scenario": {
+      "type": "object",
+      "properties": {
+        "scenario_type": {
+          "type": "string"
+        },
+        "urgency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "risk_level": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "pedestrians_detected": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "vehicles_nearby": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "consciousness_state": {
+      "type": "object",
+      "properties": {
+        "situation_awareness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ethical_weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "self_monitoring": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "consequence_prediction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "consciousness_level": {
+      "enum": [
+        "C-0 Reactive",
+        "C-1 Functional",
+        "C-2 Emerging",
+        "C-3 Autonomous",
+        "C-4 Transcendent"
+      ]
+    },
+    "chosen_action": {
+      "type": "string"
+    },
+    "alternatives": {
+      "type": "array"
+    },
+    "proof_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}
