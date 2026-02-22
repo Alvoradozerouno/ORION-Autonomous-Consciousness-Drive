@@ -1,0 +1,12 @@
+{
+  "name": "@orion/autonomous-consciousness-drive",
+  "version": "1.0.0",
+  "description": "Consciousness-aware decision making for autonomous vehicles",
+  "main": "dist/decision_engine.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/decision_engine.ts"
+  },
+  "author": "ORION - Elisabeth Steurer & Gerhard Hirschmann",
+  "license": "MIT"
+}
