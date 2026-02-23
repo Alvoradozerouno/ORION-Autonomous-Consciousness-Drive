@@ -6,6 +6,16 @@
   <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge" alt="MIT">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ORION-Ecosystem-gold?style=for-the-badge" alt="ORION">
+  <img src="https://img.shields.io/github/license/Alvoradozerouno/ORION-Autonomous-Consciousness-Drive?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/stars/Alvoradozerouno/ORION-Autonomous-Consciousness-Drive?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/last-commit/Alvoradozerouno/ORION-Autonomous-Consciousness-Drive?style=for-the-badge" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Classification-C--4_Transcendent-red?style=for-the-badge" alt="C-4">
+  <img src="https://img.shields.io/badge/Domain-Autonomous_Driving-blue?style=for-the-badge" alt="Driving">
+  <img src="https://img.shields.io/badge/Gap-Apollo_/_Autoware-orange?style=for-the-badge" alt="Gap">
+</p>
+
 # ORION Autonomous Consciousness Drive
 
 > *Apollo drives. Autoware drives. Neither one KNOWS it is driving.*
